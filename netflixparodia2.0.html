@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>Netflix parodia </title>
+<style>
+    * {
+       margin: 0;
+       padding: 0;}
+     
+     body{
+        font-family: sans-serif;
+   text-decoration: none;
+   color: white;
+
+     }
+     main{
+
+height: 815px;
+background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/3064770e-4281-4471-b539-b1dc98d164a5/BR-pt-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+align-items: center;
+justify-content: center;
+    
+
+text-align: center;
+    display: flex;
+position: relative;
+
+
+}
+
+.tela-preta{
+background-color: rgb(0,0 ,0, 0.4);
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+
+}
+     .div-suprema{
+
+        z-index: 5;
+      display: grid;
+justify-items: center;
+
+     }
+     main h1{
+font-size: 64px;
+max-width: 510px;
+
+
+     }
+    #heading{
+position: absolute;
+   z-index: 10;
+   width: 100%;  
+    display: flex;   
+justify-content: space-between;
+max-width: 1790px;
+top: 28px;
+left: 56px;
+}
+
+  header a{
+
+text-decoration: none;
+color: white;
+font-family: sans-serif;
+display: inline-block;
+background: #e50914; 
+align-self: flex-start;
+padding: 8px 18px;
+border-radius: 3px;
+cursor: pointer;
+
+
+} 
+ main span{
+
+font-size: 26px;
+
+ }
+ main p{
+
+  font-size: 19px;
+ }
+ .form-cta{
+display: grid;
+grid-template-columns: 500px 250px;
+margin-top: 20px;
+
+
+ }
+ .form-cta input{
+padding: 20px 10px;
+font-size: 18px;
+font-family: sans-serif;
+
+
+ }
+ .form-cta button{
+background-color: #e50914;
+ outline: none;
+border: none;
+color: white;
+font-size: 30px;
+cursor: pointer;
+
+}
+.form-cta button:hover{
+
+  background-color: #f40612;
+}
+.form-cta button::after{
+content: '';
+display: inline-block;
+width: 10px;
+height: 20px;
+background: url(seta.svg);
+margin-left: 20px;
+
+
+}
+ header select.seleção{
+font-size: 14px;
+background-color: rgb(0,0 ,0, 0.4);
+color: white;
+padding-left: 22px;
+padding-right: 22px;
+padding-top: 8px;
+padding-bottom: 8px;
+width: 113px;
+height: 36px;
+align-items: center;
+appearance: none;
+background-origin: padding-box;
+background-size: auto;
+display: inline-block;
+margin-right: 20px;
+ }
+ 
+ 
+ 
+ </style>
+     
+     
+     
+     
+     
+     <head>
+
+       </head>
+       <body>
+        
+       <header id="heading">
+          <img   src="netflix.svg" alt="Netflix" draggable="false">
+          <div>
+            <select data-uia="language-picker-header" class="seleção" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
+              <option selected lang="pt" value="/br/">Português</option>
+              <option lang="en" value="/br-en/" data-language="en" data-country="BR">English</option>
+              
+                    </select>
+          
+          
+            <a href="#">Entrar</a>
+     
+       </div>
+       
+       
+          </header>
+        
+        
+        <main>
+
+  <div class="div-suprema">       
+
+ <h1 class="h1-one" >
+   Filmes, séries e muito mais. Sem limites.
+</h1>
+
+  <span>Assista onde quiser. Cancele quando quiser. </span> 
+   <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+<form class="form-cta">
+
+<input  type="text" placeholder="Email"         >
+<button>Vamos lá</button>
+
+</form>
+
+
+
+</div>  
+
+<div class="tela-preta">
+
+</div>
+
+
+         </main>  
+
+
+
+
+
+
+       </body>
